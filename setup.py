@@ -34,7 +34,7 @@ setup(
     install_requires=[
         'msgpack~=1.0.7',
         'asgiref~=3.7.2,<4',
-        'channels~=4.0.0',
+        'channels',
         'aiopg~=1.4.0'
     ],
     extras_require={'cryptography': crypto_requires, 'tests': test_requires},
